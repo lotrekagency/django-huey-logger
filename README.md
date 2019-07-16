@@ -35,16 +35,16 @@ python manage.py migrate huey_logger
 Keep track of your periodic tasks by adding a decorator to your functions
 
 ```py
-from huey_logger.decorators import log_periodic_task, log_task
+from huey_logger.decorators import log_db_periodic_task, log_db_task
 from huey import crontab
 
 
-@log_periodic_task(crontab(hour='*/1', minute=0))
+@log_db_periodic_task(crontab(hour='*/1', minute=0))
 def periodic_do_something():
     print("I'm saying hello every hour :)")
 
-@log_task
+@log_db_task
 def do_something_in_background():
     print("I'm saying hello under the hood")
-    
+
 ```
