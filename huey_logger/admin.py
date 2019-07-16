@@ -22,7 +22,10 @@ class LastCronRunAdmin(admin.ModelAdmin):
         extra_context = extra_context or {}
         extra_context['show_save_and_continue'] = False
         extra_context['show_save'] = False
-        return super(LastCronRunAdmin, self).changeform_view(request, object_id, extra_context=extra_context)
+        return super(LastCronRunAdmin, self).changeform_view(
+            request, object_id,
+            extra_context=extra_context
+        )
 
 
 @admin.register(CronError)
@@ -42,4 +45,6 @@ class CronErrorAdmin(admin.ModelAdmin):
         extra_context = extra_context or {}
         extra_context['show_save_and_continue'] = False
         extra_context['show_save'] = False
-        return super(CronErrorAdmin, self).changeform_view(request, object_id, extra_context=extra_context)
+        return super(CronErrorAdmin, self).changeform_view(
+            request, object_id, extra_context=extra_context
+        )

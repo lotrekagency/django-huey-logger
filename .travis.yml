@@ -16,6 +16,6 @@ install:
   - pip install -q Django$DJANGO_VERSION
 
 script:
-  - flake8 huey-logger'
+  - flake8 huey-logger
   - make test
   - codecov
