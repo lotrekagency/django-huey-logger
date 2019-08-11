@@ -1,5 +1,11 @@
 # Django Huey Logger
 
+<p align="center">
+<a href="https://travis-ci.org/lotrekagency/django-huey-logger" target="blank"><img src="https://travis-ci.org/lotrekagency/django-huey-logger.svg?branch=master"></a>
+<a href="https://pypi.python.org/pypi/django-huey-logger/" target="blank"><img src="https://img.shields.io/pypi/v/django-huey-logger.svg"></a>
+<a href="https://codecov.io/gh/lotrekagency/django-huey-logger" target="blank"><img src="https://codecov.io/gh/lotrekagency/django-huey-logger/branch/master/graph/badge.svg"></a>
+</p>
+
 A simple Django app to let you know if huey cron are working without errors.
 
 ## Installation
