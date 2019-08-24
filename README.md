@@ -13,7 +13,7 @@ A simple Django app to let you know if huey cron are working without errors.
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Django Huey Logger.
 
 ```bash
-pip install git+https://github.com/bnznamco/django-huey-logger.git
+pip install django-huey-logger
 ```
 ## Requirements
 
