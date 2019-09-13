@@ -6,23 +6,22 @@
 <a href="https://codecov.io/gh/lotrekagency/django-huey-logger" target="blank"><img src="https://codecov.io/gh/lotrekagency/django-huey-logger/branch/master/graph/badge.svg"></a>
 </p>
 
-A simple Django app to let you know if huey cron are working without errors.
+A simple Django app to let you know if huey tasks are working without errors.
 
 ## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Django Huey Logger.
 
 ```bash
 pip install django-huey-logger
 ```
+
 ## Requirements
 
 Needs [huey](https://huey.readthedocs.io/en/0.4.9/django.html) installed and configured.
 
-
 ## Usage
 
 **In your settings.py**
+
 ```py
 INSTALLED_APPS = [
     'huey_logger',
@@ -32,6 +31,7 @@ INSTALLED_APPS = [
 ```
 
 **Run migrations**
+
 ```
 python manage.py migrate huey_logger
 ```
