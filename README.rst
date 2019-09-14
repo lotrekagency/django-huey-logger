@@ -14,7 +14,7 @@ Installation
 Requirements
 ------------
 
-Needs `huey <https://huey.readthedocs.io/en/0.4.9/django.html>`__
+Needs `huey <https://huey.readthedocs.io/en/latest/contrib.html#django>`__
 installed and configured.
 
 Usage

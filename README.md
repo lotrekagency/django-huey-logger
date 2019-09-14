@@ -16,7 +16,7 @@ pip install django-huey-logger
 
 ## Requirements
 
-Needs [huey](https://huey.readthedocs.io/en/0.4.9/django.html) installed and configured.
+Needs [huey](https://huey.readthedocs.io/en/latest/contrib.html#django) installed and configured.
 
 ## Usage
 
