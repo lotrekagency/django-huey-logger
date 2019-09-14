@@ -16,7 +16,6 @@ def _log_task(cron_name, func, *args, **kwargs):
                 name=cron_name,
                 error=str(ex)
             )
-            print(ex)
 
 
 def log_db_periodic_task(*args, **kwargs):
