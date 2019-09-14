@@ -5,7 +5,7 @@ with open("README.rst", "r") as fh:
 
 setup(
     name='django-huey-logger',
-    version='0.0.1',
+    version='1.0.0',
     url='https://github.com/lotrekagency/django-huey-logger',
     long_description=long_description,
     description="A simple Django app to let you know if huey tasks are working without errors.",
