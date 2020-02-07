@@ -7,7 +7,7 @@ class LastCronRunAdmin(admin.ModelAdmin):
     list_display = ('name', 'started_at', 'ended_at')
 
     def get_readonly_fields(self, request, obj=None):
-            return [f.name for f in self.model._meta.fields]
+        return [f.name for f in self.model._meta.fields]
 
     def has_add_permission(self, request, obj=None):
         return False
@@ -33,7 +33,7 @@ class CronErrorAdmin(admin.ModelAdmin):
     list_display = ('name', 'time', 'error')
 
     def get_readonly_fields(self, request, obj=None):
-            return [f.name for f in self.model._meta.fields]
+        return [f.name for f in self.model._meta.fields]
 
     def has_add_permission(self, request, obj=None):
         return False
